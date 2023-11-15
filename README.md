@@ -1,7 +1,5 @@
 # RNA-seq analysis of E. coli with over-expressed DNA-damage handling proteins
 
-[[_TOC_]]
-
 ## Introduction
 
 In this project, you will be analysing RNA-seq data from Escherichia coli bacteria.
@@ -14,24 +12,24 @@ would like to perform a transcriptome-wide study of its effects.
 
 You should create a new, empty conda environment. Make sure you have set up 
 Bioconda to be able to install the necessary packages. [See this link for details
-on setting up conda and bioconda](http://bioconda.github.io/user/install.html).
+on setting up conda and bioconda](http://bioconda.github.io/).
 
 ### Git repository
 
 Your working directory will be under git control. You will first copy this repository
-to your GitLab account, and then work on this new copy using it as your remote.
+to your GitHub account, and then work on this new copy using it as your remote.
 
 #### Forking this repository
 
-You should start by forking this repository. A git **fork** creates a copy
-of the repository *on your own GitLab account*. This copy will become the remote
+You should start by forking this repository. A **fork** creates a copy
+of the repository *on your own GitHub account*. This copy will become the remote
 repository where you will eventually save your work.
 
-You can find the fork button on the top right corner of the repository webpage on GitLab.
+You can find the fork button in the main page of your GitHub repository.
 
 Once you fork the project, you will have a copy of the repository on a new URL:
 
-`https://gitlab.com/<your_username>/testsim`
+`https://github.com/<your_username>/testsim`
 
 #### Adding your instructor as a collaborator
 
@@ -42,8 +40,8 @@ page.
 
 #### Getting help
 
-You can now ask for help from your instructor by creating a new issue in the GitLab
-repository (click on the "Issues" tab on the left of the GitLab repo page),
+You can now ask for help from your instructor by creating a new issue in the GitHub
+repository (click on the "Issues" tab on the left of the GitHub repo page),
 adding a relevant title and description, **and assigning the issue to your instructor**.
 
 You can assign the issue by clicking on the "Assignees" title on the top right.
@@ -79,11 +77,11 @@ When complete, your pipeline should be able to automatically do the following (l
 - Download the E. coli genome
     - You can get if from
     `ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz`
-- QC the data using the FastQC software (fastqc in conda)
-- Remove the adapters from the data (cutadapt in conda)
-- Index the genome (star in conda)
+- QC the data using the FastQC software (`fastqc` in conda)
+- Remove the adapters from the data (`cutadapt` in conda)
+- Index the genome (`star` in conda)
 - Align the adapter-free reads to the genome (also with star)
-- Generate a report with MultiQC (multiqc in conda)
+- Generate a report with MultiQC (multiqc in `conda`)
 
 > Your scripts should automatically process all samples available in the `data` directory.
 
