@@ -14,7 +14,7 @@ You should create a new, empty conda environment. Make sure you have set up
 Bioconda to be able to install the necessary packages. [See this link for details
 on setting up conda and bioconda](http://bioconda.github.io/).
 
-### Git repository
+### Git repository (NOTE: skip to "Organisation of your files" if you're not using Git)
 
 Your working directory will be under git control. You will first copy this repository
 to your GitHub account, and then work on this new copy using it as your remote.
@@ -86,21 +86,9 @@ When complete, your pipeline should be able to automatically do the following (l
 > Your scripts should automatically process all samples available in the `data` directory.
 
 > Keep in mind that you should only repeat for each sample those commands that
-> analyse samples. There are other, generic commands that should only be run once.
+> analyse samples. **There are other, generic commands that should only be run once**.
 
 > **This may require modifying the provided sample-analysing script and moving part of it somewhere else.**
-
-## Once you are done
-
-Once you are done, you should first export a file with your conda environment information.
-
-```shell
-mkdir envs
-conda env export > envs/rna-seq.yaml
-```
-
-You should **add** the new file to the staging area, **commit** it to the local repository,
-and **push** your changes to the remote repository.
 
 ## Hints
 
