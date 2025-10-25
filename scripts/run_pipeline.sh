@@ -14,6 +14,7 @@ RESET="\033[0m"
 
 
 
+
 if [ "$#" -ne 1 ]
 then
   echo -e "${RED}❌ Error:${RESET} faltan argumentos."
@@ -26,6 +27,18 @@ BASE_PATH=$1
 
 echo -e "${CYAN}📂 Base path:${RESET} $BASE_PATH"
 echo 
+
+
+echo "Running STAR index..."
+mkdir -p $BASE_PATH/res/genome/star_index
+STAR \
+    --runThreadN 4 \
+    --runMode genomeGenerate \
+    --genomeDir $BASE_PATH/res/genome/star_index/ \
+    --genomeFastaFiles res/genome/ecoli.fasta \
+    --genomeSAindexNbases 9
+
+echo
 
 for sample in $(ls $BASE_PATH/data/*.fastq.gz | cut -d "_" -f1 | sed 's:data/::' | sort | uniq)
 do
