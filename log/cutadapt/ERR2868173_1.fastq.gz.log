@@ -1,0 +1,2 @@
+This is cutadapt 5.1 with Python 3.12.12
+Command line parameters: -m 20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCA -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT -o out/cutadapt/ERR2868173_1.fastq.gz_1.trimmed.fastq.gz -p out/cutadapt/ERR2868173_1.fastq.gz_2.trimmed.fastq.gz data/ERR2868173_1.fastq.gz_1.fastq.gz data/ERR2868173_1.fastq.gz_2.fastq.gz

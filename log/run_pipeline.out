@@ -1,0 +1,248 @@
+[0;36m📂 Base path:[0m .
+
+\033[0;32mStart ./ERR2868172 \033[0m
+Running FastQC...
+application/gzip
+application/gzip
+Started analysis of ERR2868172_1.fastq.gz
+Approx 5% complete for ERR2868172_1.fastq.gz
+Approx 10% complete for ERR2868172_1.fastq.gz
+Approx 15% complete for ERR2868172_1.fastq.gz
+Approx 20% complete for ERR2868172_1.fastq.gz
+Approx 25% complete for ERR2868172_1.fastq.gz
+Approx 30% complete for ERR2868172_1.fastq.gz
+Approx 35% complete for ERR2868172_1.fastq.gz
+Approx 40% complete for ERR2868172_1.fastq.gz
+Approx 45% complete for ERR2868172_1.fastq.gz
+Approx 50% complete for ERR2868172_1.fastq.gz
+Approx 55% complete for ERR2868172_1.fastq.gz
+Approx 60% complete for ERR2868172_1.fastq.gz
+Approx 65% complete for ERR2868172_1.fastq.gz
+Approx 70% complete for ERR2868172_1.fastq.gz
+Approx 75% complete for ERR2868172_1.fastq.gz
+Approx 80% complete for ERR2868172_1.fastq.gz
+Approx 85% complete for ERR2868172_1.fastq.gz
+Approx 90% complete for ERR2868172_1.fastq.gz
+Approx 95% complete for ERR2868172_1.fastq.gz
+Approx 100% complete for ERR2868172_1.fastq.gz
+Analysis complete for ERR2868172_1.fastq.gz
+Started analysis of ERR2868172_2.fastq.gz
+Approx 5% complete for ERR2868172_2.fastq.gz
+Approx 10% complete for ERR2868172_2.fastq.gz
+Approx 15% complete for ERR2868172_2.fastq.gz
+Approx 20% complete for ERR2868172_2.fastq.gz
+Approx 25% complete for ERR2868172_2.fastq.gz
+Approx 30% complete for ERR2868172_2.fastq.gz
+Approx 35% complete for ERR2868172_2.fastq.gz
+Approx 40% complete for ERR2868172_2.fastq.gz
+Approx 45% complete for ERR2868172_2.fastq.gz
+Approx 50% complete for ERR2868172_2.fastq.gz
+Approx 55% complete for ERR2868172_2.fastq.gz
+Approx 60% complete for ERR2868172_2.fastq.gz
+Approx 65% complete for ERR2868172_2.fastq.gz
+Approx 70% complete for ERR2868172_2.fastq.gz
+Approx 75% complete for ERR2868172_2.fastq.gz
+Approx 80% complete for ERR2868172_2.fastq.gz
+Approx 85% complete for ERR2868172_2.fastq.gz
+Approx 90% complete for ERR2868172_2.fastq.gz
+Approx 95% complete for ERR2868172_2.fastq.gz
+Approx 100% complete for ERR2868172_2.fastq.gz
+Analysis complete for ERR2868172_2.fastq.gz
+
+Running cutadapt...
+
+Running STAR index...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --runMode genomeGenerate --genomeDir res/genome/star_index/ --genomeFastaFiles res/genome/ecoli.fasta --genomeSAindexNbases 9
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:24:23 ..... started STAR run
+Oct 25 11:24:23 ... starting to generate Genome files
+Oct 25 11:24:23 ... starting to sort Suffix Array. This may take a long time...
+Oct 25 11:24:23 ... sorting Suffix Array chunks and saving them to disk...
+Oct 25 11:24:25 ... loading chunks from disk, packing SA...
+Oct 25 11:24:25 ... finished generating suffix array
+Oct 25 11:24:25 ... generating Suffix Array index
+Oct 25 11:24:25 ... completed Suffix Array index
+Oct 25 11:24:25 ... writing Genome to disk ...
+Oct 25 11:24:25 ... writing Suffix Array to disk ...
+Oct 25 11:24:25 ... writing SAindex to disk
+Oct 25 11:24:25 ..... finished successfully
+
+Running STAR alignment...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --genomeDir res/genome/star_index/ --readFilesIn out/cutadapt/./ERR2868172_1.trimmed.fastq.gz out/cutadapt/./ERR2868172_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix out/star/./ERR2868172/
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:24:25 ..... started STAR run
+Oct 25 11:24:25 ..... loading genome
+Oct 25 11:24:25 ..... started mapping
+Oct 25 11:25:01 ..... finished mapping
+Oct 25 11:25:01 ..... finished successfully
+
+\033[0;34mEnd ./ERR2868172 \033[0m
+
+\033[0;32mStart ./ERR2868173 \033[0m
+Running FastQC...
+application/gzip
+application/gzip
+Started analysis of ERR2868173_1.fastq.gz
+Approx 5% complete for ERR2868173_1.fastq.gz
+Approx 10% complete for ERR2868173_1.fastq.gz
+Approx 15% complete for ERR2868173_1.fastq.gz
+Approx 20% complete for ERR2868173_1.fastq.gz
+Approx 25% complete for ERR2868173_1.fastq.gz
+Approx 30% complete for ERR2868173_1.fastq.gz
+Approx 35% complete for ERR2868173_1.fastq.gz
+Approx 40% complete for ERR2868173_1.fastq.gz
+Approx 45% complete for ERR2868173_1.fastq.gz
+Approx 50% complete for ERR2868173_1.fastq.gz
+Approx 55% complete for ERR2868173_1.fastq.gz
+Approx 60% complete for ERR2868173_1.fastq.gz
+Approx 65% complete for ERR2868173_1.fastq.gz
+Approx 70% complete for ERR2868173_1.fastq.gz
+Approx 75% complete for ERR2868173_1.fastq.gz
+Approx 80% complete for ERR2868173_1.fastq.gz
+Approx 85% complete for ERR2868173_1.fastq.gz
+Approx 90% complete for ERR2868173_1.fastq.gz
+Approx 95% complete for ERR2868173_1.fastq.gz
+Approx 100% complete for ERR2868173_1.fastq.gz
+Analysis complete for ERR2868173_1.fastq.gz
+Started analysis of ERR2868173_2.fastq.gz
+Approx 5% complete for ERR2868173_2.fastq.gz
+Approx 10% complete for ERR2868173_2.fastq.gz
+Approx 15% complete for ERR2868173_2.fastq.gz
+Approx 20% complete for ERR2868173_2.fastq.gz
+Approx 25% complete for ERR2868173_2.fastq.gz
+Approx 30% complete for ERR2868173_2.fastq.gz
+Approx 35% complete for ERR2868173_2.fastq.gz
+Approx 40% complete for ERR2868173_2.fastq.gz
+Approx 45% complete for ERR2868173_2.fastq.gz
+Approx 50% complete for ERR2868173_2.fastq.gz
+Approx 55% complete for ERR2868173_2.fastq.gz
+Approx 60% complete for ERR2868173_2.fastq.gz
+Approx 65% complete for ERR2868173_2.fastq.gz
+Approx 70% complete for ERR2868173_2.fastq.gz
+Approx 75% complete for ERR2868173_2.fastq.gz
+Approx 80% complete for ERR2868173_2.fastq.gz
+Approx 85% complete for ERR2868173_2.fastq.gz
+Approx 90% complete for ERR2868173_2.fastq.gz
+Approx 95% complete for ERR2868173_2.fastq.gz
+Approx 100% complete for ERR2868173_2.fastq.gz
+Analysis complete for ERR2868173_2.fastq.gz
+
+Running cutadapt...
+
+Running STAR index...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --runMode genomeGenerate --genomeDir res/genome/star_index/ --genomeFastaFiles res/genome/ecoli.fasta --genomeSAindexNbases 9
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:25:17 ..... started STAR run
+Oct 25 11:25:17 ... starting to generate Genome files
+Oct 25 11:25:17 ... starting to sort Suffix Array. This may take a long time...
+Oct 25 11:25:17 ... sorting Suffix Array chunks and saving them to disk...
+Oct 25 11:25:20 ... loading chunks from disk, packing SA...
+Oct 25 11:25:20 ... finished generating suffix array
+Oct 25 11:25:20 ... generating Suffix Array index
+Oct 25 11:25:20 ... completed Suffix Array index
+Oct 25 11:25:20 ... writing Genome to disk ...
+Oct 25 11:25:20 ... writing Suffix Array to disk ...
+Oct 25 11:25:20 ... writing SAindex to disk
+Oct 25 11:25:20 ..... finished successfully
+
+Running STAR alignment...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --genomeDir res/genome/star_index/ --readFilesIn out/cutadapt/./ERR2868173_1.trimmed.fastq.gz out/cutadapt/./ERR2868173_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix out/star/./ERR2868173/
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:25:20 ..... started STAR run
+Oct 25 11:25:20 ..... loading genome
+Oct 25 11:25:20 ..... started mapping
+Oct 25 11:25:56 ..... finished mapping
+Oct 25 11:25:56 ..... finished successfully
+
+\033[0;34mEnd ./ERR2868173 \033[0m
+
+\033[0;32mStart ./ERR2868174 \033[0m
+Running FastQC...
+application/gzip
+application/gzip
+Started analysis of ERR2868174_1.fastq.gz
+Approx 5% complete for ERR2868174_1.fastq.gz
+Approx 10% complete for ERR2868174_1.fastq.gz
+Approx 15% complete for ERR2868174_1.fastq.gz
+Approx 20% complete for ERR2868174_1.fastq.gz
+Approx 25% complete for ERR2868174_1.fastq.gz
+Approx 30% complete for ERR2868174_1.fastq.gz
+Approx 35% complete for ERR2868174_1.fastq.gz
+Approx 40% complete for ERR2868174_1.fastq.gz
+Approx 45% complete for ERR2868174_1.fastq.gz
+Approx 50% complete for ERR2868174_1.fastq.gz
+Approx 55% complete for ERR2868174_1.fastq.gz
+Approx 60% complete for ERR2868174_1.fastq.gz
+Approx 65% complete for ERR2868174_1.fastq.gz
+Approx 70% complete for ERR2868174_1.fastq.gz
+Approx 75% complete for ERR2868174_1.fastq.gz
+Approx 80% complete for ERR2868174_1.fastq.gz
+Approx 85% complete for ERR2868174_1.fastq.gz
+Approx 90% complete for ERR2868174_1.fastq.gz
+Approx 95% complete for ERR2868174_1.fastq.gz
+Approx 100% complete for ERR2868174_1.fastq.gz
+Analysis complete for ERR2868174_1.fastq.gz
+Started analysis of ERR2868174_2.fastq.gz
+Approx 5% complete for ERR2868174_2.fastq.gz
+Approx 10% complete for ERR2868174_2.fastq.gz
+Approx 15% complete for ERR2868174_2.fastq.gz
+Approx 20% complete for ERR2868174_2.fastq.gz
+Approx 25% complete for ERR2868174_2.fastq.gz
+Approx 30% complete for ERR2868174_2.fastq.gz
+Approx 35% complete for ERR2868174_2.fastq.gz
+Approx 40% complete for ERR2868174_2.fastq.gz
+Approx 45% complete for ERR2868174_2.fastq.gz
+Approx 50% complete for ERR2868174_2.fastq.gz
+Approx 55% complete for ERR2868174_2.fastq.gz
+Approx 60% complete for ERR2868174_2.fastq.gz
+Approx 65% complete for ERR2868174_2.fastq.gz
+Approx 70% complete for ERR2868174_2.fastq.gz
+Approx 75% complete for ERR2868174_2.fastq.gz
+Approx 80% complete for ERR2868174_2.fastq.gz
+Approx 85% complete for ERR2868174_2.fastq.gz
+Approx 90% complete for ERR2868174_2.fastq.gz
+Approx 95% complete for ERR2868174_2.fastq.gz
+Approx 100% complete for ERR2868174_2.fastq.gz
+Analysis complete for ERR2868174_2.fastq.gz
+
+Running cutadapt...
+
+Running STAR index...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --runMode genomeGenerate --genomeDir res/genome/star_index/ --genomeFastaFiles res/genome/ecoli.fasta --genomeSAindexNbases 9
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:26:09 ..... started STAR run
+Oct 25 11:26:09 ... starting to generate Genome files
+Oct 25 11:26:09 ... starting to sort Suffix Array. This may take a long time...
+Oct 25 11:26:09 ... sorting Suffix Array chunks and saving them to disk...
+Oct 25 11:26:12 ... loading chunks from disk, packing SA...
+Oct 25 11:26:12 ... finished generating suffix array
+Oct 25 11:26:12 ... generating Suffix Array index
+Oct 25 11:26:12 ... completed Suffix Array index
+Oct 25 11:26:12 ... writing Genome to disk ...
+Oct 25 11:26:12 ... writing Suffix Array to disk ...
+Oct 25 11:26:12 ... writing SAindex to disk
+Oct 25 11:26:12 ..... finished successfully
+
+Running STAR alignment...
+	/home/vant/miniforge3/envs/advshell/bin/STAR-avx2 --runThreadN 4 --genomeDir res/genome/star_index/ --readFilesIn out/cutadapt/./ERR2868174_1.trimmed.fastq.gz out/cutadapt/./ERR2868174_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix out/star/./ERR2868174/
+	STAR version: 2.7.11b   compiled: 2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+Oct 25 11:26:12 ..... started STAR run
+Oct 25 11:26:12 ..... loading genome
+Oct 25 11:26:12 ..... started mapping
+Oct 25 11:26:49 ..... finished mapping
+Oct 25 11:26:49 ..... finished successfully
+
+\033[0;34mEnd ./ERR2868174 \033[0m
+
+
+/// MultiQC 🔍 v1.31
+
+       file_search | Search path: /home/vant/Escritorio/Linux/AdvanceLinux/Escherichia-RNA-seq-Analysis
+
+              star | Found 3 reports
+          cutadapt | Found 9 reports
+            fastqc | Found 6 reports
+
+     write_results | Data        : out/multiqc/multiqc_data
+     write_results | Report      : out/multiqc/multiqc_report.html
+           multiqc | MultiQC complete
